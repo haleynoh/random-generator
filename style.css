@@ -1,0 +1,83 @@
+   @font-face {
+ 	font-family: Binggrae;
+ 	src: url('BinggraeBold.ttf');
+ }
+
+ @font-face {
+ 	font-family: BinggraeBold;
+ 	src: url('BinggraeSamanco-Bold.ttf');
+ }
+
+  @font-face {
+ 	font-family: Bebas;
+ 	src: url('Bebas.ttf');
+ }
+
+  @font-face {
+ 	font-family: DM;
+ 	src: url('DM.ttf');
+ }
+
+  @font-face {
+ 	font-family: Roboto;
+ 	src: url('Roboto.ttf');
+ }
+
+  @font-face {
+ 	font-family: NewYork;
+ 	src: url('NewYork.otf');
+ }
+
+   @font-face {
+ 	font-family: Squareo;
+ 	src: url('Squareo.ttf');
+ }
+
+body{
+	background-color: #d1e7ff;
+}
+
+h1 {
+	font-family: Binggrae;
+	color: #464be8;
+	text-align: center;
+}
+
+.cover {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.heading {
+	text-align: center;
+	font-family: Binggrae;
+	font-size: 20px;
+	color: #2f36ed;
+}
+.box {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.type {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#userInput {
+	width: 200px;
+	height: 30px;
+}
+
+#executeButton {
+	height: 35px;
+}
+
+#outputText {
+	text-align: center;
+	font-family: Binggrae;
+	font-size: 20px;
+}
